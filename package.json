@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-finanzas",
+  "version": "1.0.0",
+  "description": "Api de registros de whatsapp a sheets de google",
+  "homepage": "https://github.com/cristian-murcia/whatsapp-finanzas#readme",
+  "bugs": {
+    "url": "https://github.com/cristian-murcia/whatsapp-finanzas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian-murcia/whatsapp-finanzas.git"
+  },
+  "license": "MIT",
+  "author": "Cristian Murcia",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
